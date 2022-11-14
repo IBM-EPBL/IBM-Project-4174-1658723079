@@ -1,0 +1,132 @@
+    #last{
+        width: 100%;
+        height: auto;
+        color: black;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+
+    #submit {
+        background-color: green;
+        padding: 5px 20px;
+        border-radius: 10px;
+        transition: padding 0.9s;
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    a:link {
+        color: white;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    #submit:hover {
+        text-decoration: none;
+        
+    }
+    .full{
+    max-width: 80%;
+    display: inline-block;
+    margin:2%;
+    margin-left: 10%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 1, 1);
+    border:15px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.06), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    }
+    .full h3{
+    font-size: 2rem;
+    display:block;
+    margin: 2%;
+    margin-bottom: 0;
+    }
+    .lt{
+    padding: 2%;
+    margin: 2%;
+    }
+    .rt{
+    padding: 2%;
+    margin: 2%;
+    }
+    .lt textarea{
+    width: 94%;
+    margin-left: 2.8%;
+    }
+    button{
+    margin: 4%;
+    }
+    .btn-primary{
+    background-color: rgb(228, 63, 63);
+    border: 2px solid white;
+    border-radius: 5%;
+    }
+    .list-item{
+    margin-bottom: 2%;
+    list-style-type: none;
+    }
+    .list-item span{
+    margin-left: 10px;
+    font-size: 1.4rem;
+    }
+    .list-item a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    }
+    .list-item a:hover{
+    text-decoration: underline;
+    }
+
+    .form-control{
+    background-color: white;
+    }
+        
+    @media screen and (min-width: 770px){
+    .full{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .lt textarea{
+    width: 95%;
+    margin-left: 2.4%;
+    }
+    }
+        
+    @media screen and (min-width: 1100px){
+    .full{
+        width: 65%;
+        margin-left: 17%;
+        margin-top: 5%;
+    }
+    .lt{
+        width: 55%;
+        display: inline-block;
+        margin-right: 0;
+    }
+    .rt{
+        width: 35%;
+        display: inline-block;
+        margin-left: 0;
+    }
+    .list-item{
+    margin-bottom: 10%;
+    }
+    .contact-list{
+        margin-top: 22%;
+        padding-right: 8%;
+    }
+    .fa-envelope, .gmail{
+        display: inline-block;
+        width: auto;
+    }
+    }
+    
